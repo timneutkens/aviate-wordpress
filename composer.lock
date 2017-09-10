@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d8394b817af5a66c3a803b3d827c5a49",
+    "packages": [
+        {
+            "name": "weprovide/aviate",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/timneutkens/aviate-php.git",
+                "reference": "76731af0ccf416b6251b6284cda9f12c435420af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/timneutkens/aviate-php/zipball/76731af0ccf416b6251b6284cda9f12c435420af",
+                "reference": "76731af0ccf416b6251b6284cda9f12c435420af",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WeProvide\\Aviate\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Neutkens",
+                    "email": "tim@weprovide.com"
+                }
+            ],
+            "description": "Connector class for Aviate compiler",
+            "time": "2017-09-06T07:54:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
